@@ -13,10 +13,38 @@ body {
   flex-wrap: nowrap;
   justify-content: space-between;
 }
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+header nav li {
+  margin-right: 2em;
+}
+header nav li:last-child {
+  margin-right: 0;
+}
+nav li a, .msg li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.msg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+.msg li {
+  margin-left: 2em;
+}
+.msg li:first-child {
+  margin-left: 0;
+}
 h1 {
-  font-size: 240%;
+  font-size: 960%;
   font-weight: 800;
   text-transform: uppercase;
+  text-align: center;
   color: #FFFFFF;
   font-family: sans-serif;
   text-shadow: 2px 2px 30px #FF6600;
