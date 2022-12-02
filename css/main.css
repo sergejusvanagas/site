@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   font-size: 48px;
+  color: #FFFFFF;
 }
 h1 {
   font-size: 240%;
@@ -34,9 +35,24 @@ h1 {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 20%;
-  margin: 8px;
+  margin: 4px;
 }
 main .wrap {
   justify-content: center;
   align-items: flex-start;
+}
+footer .wrap {
+  display: grid;
+}
+footer .block:nth-child(1) {
+  background-color: cadetblue;
+}
+footer .block:nth-child(2) {
+  background-color: aquamarine;
+}
+footer .block:nth-child(3) {
+  background-color: bisque;
+}
+footer .block:nth-child(4) {
+  background-color: aliceblue;
 }
