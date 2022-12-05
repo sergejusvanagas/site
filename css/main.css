@@ -103,6 +103,6 @@ footer .block:nth-child(5) {
   grid-column-start: 1;
   grid-column-end: 5;
 }
-footer .block:nth-child(5) p {
+footer .wrap:nth-child(2) p {
   text-align: center;
 }
