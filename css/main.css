@@ -101,7 +101,6 @@ footer .block:nth-child(1) {
   grid-row-end: 5;
   grid-column-start: 1;
   grid-column-end: 2;
-  background-color: rgba(0, 0, 0, .4);
   padding: 8px;
   border-radius: 8px;
 }
@@ -110,17 +109,14 @@ footer .block:nth-child(2) {
   grid-row-end: 5;
   grid-column-start: 2;
   grid-column-end: 3;
-  background-color: rgba(0, 0, 0, .4);
   padding: 8px;
   border-radius: 8px;
 }
 footer .block:nth-child(3) {
-  background-color: rgba(0, 0, 0, .4);
   padding: 8px;
   border-radius: 8px;
 }
 footer .block:nth-child(4) {
-  background-color: rgba(0, 0, 0, .4);
   padding: 8px;
   border-radius: 8px;
 }
